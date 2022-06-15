@@ -1,7 +1,7 @@
 function Navigation() {
     return (
         <nav>
-            <li>Nav</li>
+            Nav
         </nav>
     )
 }

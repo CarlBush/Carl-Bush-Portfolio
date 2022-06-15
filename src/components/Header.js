@@ -1,9 +1,11 @@
 function Header() {
     return (
         <header>
-            <h2>
-                <a href="https://github.com/CarlBush" target="_blank">Carl Bush</a>
-            </h2>
+            <div>
+                <h2>
+                    <a href="https://github.com/CarlBush" rel="noreferrer" target="_blank">Carl Bush</a>
+                </h2>
+            </div>
         </header>
     )
 }
