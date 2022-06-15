@@ -1,6 +1,6 @@
-function Navigation() {
+function Nav() {
     return (
-        <nav className="nav">
+        <nav>
             <a href="/">Carl Bush</a>
             <ul>
                 <li>
@@ -20,4 +20,4 @@ function Navigation() {
     )
 }
 
-export default Navigation;
+export default Nav;
