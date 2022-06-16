@@ -1,6 +1,7 @@
 import Nav from "./components/Nav/Nav";
 import "./components/Nav/nav.css";
 import About from "./components/About/About";
+import Portfolio from "./components/Portfolio/Portfolio";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Nav></Nav>
       <About></About>
+    <Portfolio></Portfolio>
     </div>
   );
 }

@@ -1,12 +1,22 @@
-function Project() {
+function ProjectCard(props) {
+
     return (
         <div>
-            
+            {props.projects.map((project) =>
+                <div>
+                    <p>{project.name}</p>
+                    <p>{project.description}</p>
+                    <p>{project.deploy}</p>
+                    <p>{project.repo}</p>
+                    <img src={project.image} alt={project.name}></img>
+                </div>
+            )}
         </div>
     )
 }
 
-export default Project;
+export default ProjectCard;
+
 
 
 // Budget Tracker
