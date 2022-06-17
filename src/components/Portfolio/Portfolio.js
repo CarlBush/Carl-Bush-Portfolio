@@ -10,7 +10,6 @@ function Portfolio() {
             description: "First Project",
             deploy: "https://defhook.github.io/dinero/",
             repo: "https://github.com/defhook/dinero",
-            image: "../../assets/Dinero.png"
         },
         {
             id: 2,
@@ -18,8 +17,21 @@ function Portfolio() {
             description: "Second Project",
             deploy: "https://secret-ridge-77127.herokuapp.com/",
             repo: "https://github.com/sp381/Threat-Level-Midnight",
-            image: "/../assets/TLMN_1.png"
-        }
+        },
+        {
+            id: 3,
+            name: "1st Portfolio",
+            description: "1st created portfolio",
+            deploy: "https://secret-ridge-77127.herokuapp.com/",
+            repo: "https://carlbush.github.io/Portfolio/",
+        },
+        {
+            id: 4,
+            name: "Budget Tracker",
+            description: "Budget Tracker",
+            deploy: "https://morning-brushlands-44528.herokuapp.com/",
+            repo: "https://github.com/CarlBush/Budget-Tracker",
+        },
     ]
 
     return (
