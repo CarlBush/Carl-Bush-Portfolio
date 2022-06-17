@@ -1,7 +1,8 @@
-function Nav({handlePageChange}) {
+import "./nav.css"
+
+function Nav({ currentPage, handlePageChange }) {
     return (
-        <nav>
-            <a href="/">Carl Bush</a>
+        <nav className="nav">
             <ul>
                 <li>
                     <a href="#About" onClick={() => handlePageChange("About")}>About</a>
