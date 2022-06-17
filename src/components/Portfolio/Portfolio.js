@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import Dinero from "../../assets/Dinero.png"
+//import Dinero from "../../assets/Dinero.png"
 function Portfolio() {
 
 
@@ -10,7 +10,7 @@ function Portfolio() {
             description: "First Project",
             deploy: "https://defhook.github.io/dinero/",
             repo: "https://github.com/defhook/dinero",
-            image: {Dinero}
+            image: "../../assets/Dinero.png"
         },
         {
             id: 2,
@@ -18,7 +18,7 @@ function Portfolio() {
             description: "Second Project",
             deploy: "https://secret-ridge-77127.herokuapp.com/",
             repo: "https://github.com/sp381/Threat-Level-Midnight",
-            image: "../../assets/TLMN_1.png"
+            image: "/../assets/TLMN_1.png"
         }
     ]
 
