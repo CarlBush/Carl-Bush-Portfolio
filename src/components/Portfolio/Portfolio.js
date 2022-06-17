@@ -1,5 +1,4 @@
 import ProjectCard from "./ProjectCard";
-//import Dinero from "../../assets/Dinero.png"
 function Portfolio() {
 
 

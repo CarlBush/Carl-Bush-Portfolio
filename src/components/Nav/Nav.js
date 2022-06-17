@@ -1,19 +1,19 @@
-function Nav() {
+function Nav({handlePageChange}) {
     return (
         <nav>
             <a href="/">Carl Bush</a>
             <ul>
                 <li>
-                    <a href="/About">About</a>
+                    <a href="#About" onClick={() => handlePageChange("About")}>About</a>
                 </li>
                 <li>
-                    <a href="/Portfolio">Portfolio</a>
+                    <a href="#Portfolio" onClick={() => handlePageChange("Portfolio")}>Portfolio</a>
                 </li>
                 <li>
-                    <a href="/Resume">Resume</a>
+                    <a href="#Resume" onClick={() => handlePageChange("Resume")}>Resume</a>
                 </li>
                 <li>
-                    <a href="/Contact">Contact</a>
+                    <a href="#Contact" onClick={() => handlePageChange("Contact")}>Contact</a>
                 </li>
             </ul>
         </nav>
