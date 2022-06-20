@@ -6,30 +6,44 @@ function Portfolio() {
         {
             id: 1,
             name: "Dinero",
-            description: "First Project",
+            description: "Currency exchange rate converter",
             deploy: "https://defhook.github.io/dinero/",
             repo: "https://github.com/defhook/dinero",
         },
         {
             id: 2,
             name: "Threat Midnight",
-            description: "Second Project",
+            description: "Discussion forum of movies that are currently banned.",
             deploy: "https://secret-ridge-77127.herokuapp.com/",
             repo: "https://github.com/sp381/Threat-Level-Midnight",
         },
         {
             id: 3,
             name: "1st Portfolio",
-            description: "1st created portfolio",
+            description: "First portfolio created in HTML and CSS",
             deploy: "https://secret-ridge-77127.herokuapp.com/",
             repo: "https://carlbush.github.io/Portfolio/",
         },
         {
             id: 4,
             name: "Budget Tracker",
-            description: "Budget Tracker",
+            description: "A Budget tracker impacted by each transaction",
             deploy: "https://morning-brushlands-44528.herokuapp.com/",
             repo: "https://github.com/CarlBush/Budget-Tracker",
+        },
+        {
+            id: 5,
+            name: "Scheduler",
+            description: "Calender app for scheduling your workday.",
+            deploy: "https://carlbush.github.io/work-day-scheduler/",
+            repo: "https://github.com/CarlBush/work-day-scheduler",
+        },
+        {
+            id: 6,
+            name: "Note Taker",
+            description: "App that allows you to CRUD notes.",
+            deploy: "https://blooming-garden-14845.herokuapp.com/",
+            repo: "https://github.com/CarlBush/note-taker",
         },
     ]
 

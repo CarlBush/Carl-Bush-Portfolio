@@ -10,7 +10,7 @@ function ProjectCard(props) {
                             <h1 className="card-header">{project.name}</h1>
                             <p className="card-text">{project.description}</p>
                             <button className="card-btn"><a href={project.deploy} rel="noreferrer" target="_blank">Deployed</a></button>
-                            <button className="card-btn"><a href={project.repo} rel="noreferrer" target="_blank">Repo</a></button>
+                            <button className="card-btn"><a href={project.repo} rel="noreferrer" target="_blank">Repository</a></button>
                         </div>
                     </div>
                 </div>
