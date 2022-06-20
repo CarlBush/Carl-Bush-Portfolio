@@ -9,25 +9,46 @@
     background-color: oldlace;
 }
 
-body {
-    margin: 0;
+.header {
+    background: #03045E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+
 }
 
+.header h2 a{
+    text-decoration: none;
+    color: #CAF0F8;
+    font-size: 18px;
+    font-weight: 150;
+}
 
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    
+}
 
 .nav ul {
     padding: 0;
     list-style: none;
     display: flex;
     gap: 25px;
+    background: #03045E;
 }
 
 .nav a {
-    color: black;
+    color: #CAF0F8;
     text-decoration: none;
     display: flex;
     align-items: center;
-
+    padding: 10px;
+    font-size: 18px;
+    
 }
 
 .nav li:hover {
@@ -43,7 +64,7 @@ body {
     box-sizing: border-box;
 }
 
-footer{
+footer {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -51,7 +72,7 @@ footer{
     bottom: 0;
     background: #03045E;
     width: 100%;
-    padding-top:20px;
+    padding-top: 20px;
     color: #CAF0F8
 }
 
@@ -62,13 +83,13 @@ footer{
     flex-direction: column;
 }
 
-.footer-container h5{
+.footer-container h5 {
     font-size: 18px;
     font-weight: 150;
     padding-bottom: 20px;
 }
 
-.icons{
+.icons {
     list-style: none;
     display: flex;
     align-items: center;
@@ -76,7 +97,6 @@ footer{
     margin-bottom: 10px
 }
 
-.icons li{
+.icons li {
     margin: 0 10px;
 }
-

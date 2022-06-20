@@ -1,7 +1,7 @@
 function Header() {
     return (
         <header>
-            <div>
+            <div className="header">
                 <h2>
                     <a href="https://github.com/CarlBush" rel="noreferrer" target="_blank">Carl Bush</a>
                 </h2>

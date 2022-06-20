@@ -1,8 +1,8 @@
 function Resume() {
     return (
-        <footer>
+        <div>
             Resume
-        </footer>
+        </div>
     )
 }
 

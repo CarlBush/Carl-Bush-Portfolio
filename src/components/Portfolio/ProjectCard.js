@@ -8,7 +8,7 @@ function ProjectCard(props) {
                     <p>{project.description}</p>
                     <p>{project.deploy}</p>
                     <p>{project.repo}</p>
-                    <img src={require(`../../assets/${project.name}.png`)} alt="meow" />
+                    <img src={require(`../../assets/${project.name}.png`)} alt={project.name} width="150" height="150" />
                 </div>
             )}
         </div>
