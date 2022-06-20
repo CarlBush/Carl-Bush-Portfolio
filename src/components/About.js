@@ -1,4 +1,4 @@
-import photoPlaceHolder from "../../assets/placeholder_photo.png"
+import photoPlaceHolder from "../assets/placeholder_photo.png"
 
 function About() {
     return (
