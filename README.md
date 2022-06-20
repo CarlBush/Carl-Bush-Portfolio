@@ -7,7 +7,7 @@
 Portfolio using the React
 
 ## Table of Contents
-* [Live Website](#Live Website)
+* [Live Website](#Live-Website)
 * [Preview](#Preview)
 * [Questions](#Questions)
 
