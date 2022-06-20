@@ -12,7 +12,7 @@ function Portfolio() {
         },
         {
             id: 2,
-            name: "Threat Level Midnight",
+            name: "Threat Midnight",
             description: "Second Project",
             deploy: "https://secret-ridge-77127.herokuapp.com/",
             repo: "https://github.com/sp381/Threat-Level-Midnight",
@@ -34,7 +34,7 @@ function Portfolio() {
     ]
 
     return (
-        <div>
+        <div className="portfolio-container">
             <ProjectCard projects={projects}></ProjectCard>
         </div>
     )

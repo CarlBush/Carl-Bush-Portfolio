@@ -27,10 +27,10 @@ const renderPage = function () {
 const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <main>
             <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
             {renderPage()}
-        </div>
+        </main>
     )
 }
 
