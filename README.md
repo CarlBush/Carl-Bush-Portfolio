@@ -7,14 +7,19 @@
 Portfolio using the React
 
 ## Table of Contents
-* [Live](#Live)
+* [Live Website](#Live Website)
+* [Preview](#Preview)
 * [Questions](#Questions)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Live
+## Live Website
 
 <strong><p align="center"><a href="https://effulgent-narwhal-49b83c.netlify.app/">Carl Bush Portfolio</a></p></strong>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Preview
 
 <p align="center"><kbd><img src=https://github.com/CarlBush/Carl-Bush-Portfolio/blob/main/src/assets/media_screenshot.png/></kbd></p>
 
