@@ -1,17 +1,20 @@
 function Resume() {
     return (
         <div>
+            <h1>Resume</h1>
+            <br></br>
             Downloadable Resume: <a href="/">TBD</a>
             <br></br>
             <h4>Proficiencies</h4>
             <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-                <li>6</li>
-                <li>7</li>
+                <li>HTML</li>
+                <li>JAVASCRIPT</li>
+                <li>CSS</li>
+                <li>REACT</li>
+                <li>NODE</li>
+                <li>EXPRESS</li>
+                <li>MONGO</li>
+                <li>SQL</li>
             </ul>
         </div>
     )

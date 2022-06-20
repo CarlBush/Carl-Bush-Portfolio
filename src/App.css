@@ -28,6 +28,10 @@
   font-weight: 150;
 }
 
+.header h2 a:hover{
+  background-color: #00B4D8;
+}
+
 /* HEADER ENDS*/
 /* NAV STARTS*/
 
@@ -62,12 +66,6 @@
 
 /* NAV ENDS*/
 /* FOOTER STARTS*/
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 footer {
   margin: 0;
@@ -167,8 +165,7 @@ footer {
   color: #03045E
 }
 
-.card-btn:hover,
-.card-btn:active {
+.card-btn:hover {
   background-color: #00B4D8;
 }
 

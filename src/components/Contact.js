@@ -42,6 +42,7 @@ function Contact() {
     return (
         <section>
             <h1>Contact Me</h1>
+            <br></br>
             <form onSubmit={handleSubmit}>
                 <div>
                     <label>Name: </label>
