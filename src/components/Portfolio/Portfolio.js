@@ -4,6 +4,13 @@ function Portfolio() {
 
     const projects = [
         {
+            id: 7,
+            name: "Lucky Duck",
+            description: "Social Platform for Pet Spotting/Tracking.",
+            deploy: "https://scenic-great-basin-78312.herokuapp.com/",
+            repo: "https://github.com/CarlBush/Lucky-Duck",
+        },
+        {
             id: 1,
             name: "Dinero",
             description: "Currency exchange rate converter",
@@ -45,6 +52,7 @@ function Portfolio() {
             deploy: "https://blooming-garden-14845.herokuapp.com/",
             repo: "https://github.com/CarlBush/note-taker",
         },
+
     ]
 
     return (
